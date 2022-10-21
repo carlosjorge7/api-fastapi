@@ -1,0 +1,5 @@
+pip install virtualenv
+source ./env/Scripts/activate
+pip install fastapi uvicorn mysqlclient
+
+Levantamos el server: uvicorn main:app --host="127.0.0.1" --port="3000" --reload
